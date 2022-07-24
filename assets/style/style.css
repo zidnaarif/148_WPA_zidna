@@ -418,3 +418,11 @@ footer a:hover {
   padding: 100px 0;
   background-color: #cbdbd1;
 }
+
+#LoginModal .form-control {
+  background: #ffffff;
+}
+
+#LoginModal a:hover {
+  color: #59724b;
+}
