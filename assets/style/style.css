@@ -426,3 +426,38 @@ footer a:hover {
 #LoginModal a:hover {
   color: #59724b;
 }
+
+/* Register */
+#register {
+  padding: 100px 0;
+  background-image: url(../img/search-bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#register .title {
+  color: white;
+}
+
+.FormRegister {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.FormRegister .form-control {
+  background: #ffffff;
+}
+
+.note {
+  font-size: small;
+}
+
+.note a {
+  color: #59724b;
+}
+.note a:hover {
+  color: #59724b;
+}
