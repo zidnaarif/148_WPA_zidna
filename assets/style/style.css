@@ -58,6 +58,10 @@ nav {
   font-weight: 400;
 }
 
+.navbar-collapse {
+  background-color: #9ab58a;
+}
+
 /* hero */
 #hero {
   background: url(../img/hero-img-bg.jpg);
@@ -513,7 +517,7 @@ footer a:hover {
 }
 
 .imgcard img {
-  max-width: 500px;
+  max-width: 460px;
 }
 
 .profileimg {

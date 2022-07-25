@@ -108,6 +108,26 @@
       .copyright p {
         font-size: 11px;
       }
+
+      #about h3 {
+        font-size: 30px;
+        line-height: 36px;
+      }
+
+      #about span {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .aboutcard {
+        width: auto;
+        text-align: center;
+      }
+
+      .imgcard img {
+        width: 85%;
+        padding-bottom: 18px;
+      }
 }
 
 @media screen and (max-width: 768px) {
@@ -140,6 +160,14 @@
         width: 150px;
         height: 40px;
         font-size: 12px;
+      }
+
+      .price-card {
+        width: 100%;
+        margin: auto;
+        height: auto;
+        border-radius: 14px;
+        padding: 20px;
       }
 
     #service {
@@ -293,9 +321,18 @@
       .copyright p {
         font-size: 10px;
       }
+
+      .aboutcard {
+        width: 80%;
+        text-align: center;
+      }
+
+      .imgcard img {
+        padding-bottom: 18px;
+      }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
     .button-primary {
         width: 100px;
         height: 36px;
@@ -325,6 +362,14 @@
         width: 120px;
         height: 36px;
         font-size: 12px;
+      }
+
+      .price-card {
+        width: 80%;
+        margin-bottom: 20px;
+        height: auto;
+        border-radius: 14px;
+        padding: 20px;
       }
 
     #service {
@@ -485,5 +530,29 @@
       .copyright p {
         font-size: 10px;
         text-align: center;
+      }
+
+      #about h3 {
+        font-size: 28px;
+        line-height: 30px;
+      }
+
+      #about span {
+        font-size: 14px;
+        line-height: 16px;
+      }
+
+      .about {
+        width: auto;
+      }
+
+      .aboutcard {
+        width: 80%;
+        text-align: center;
+      }
+
+      .imgcard img {
+        width: 100%;
+        padding-bottom: 18px;
       }
 }
