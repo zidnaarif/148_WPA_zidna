@@ -233,6 +233,10 @@
     #ourdesign {
         padding: 40px 0 75px 0;
       }
+
+      #ourdesign .subtittle {
+        width: 80%;
+      }
       
       #ourdesign h2 {
         font-size: 36px;
@@ -329,6 +333,14 @@
 
       .imgcard img {
         padding-bottom: 18px;
+      }
+
+      .our-review {
+        display: none;
+      }
+
+      #review {
+        height: 75vh;
       }
 }
 
@@ -559,5 +571,22 @@
 
       .FormRegister {
         height: auto;
+      }
+
+      .our-review {
+        display: none;
+      }
+
+      .slider{
+        margin-left: 6px;
+      } 
+
+      .slider_item {
+        width: 270px;
+        padding: 10px 0 15px 15px;
+      }
+
+      #review {
+        height: 100vh;
       }
 }
